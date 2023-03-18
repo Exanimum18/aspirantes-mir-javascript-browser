@@ -10,9 +10,9 @@ function esPalindromo(palabra) {
 boton.addEventListener("click", () => {
   const texto = input.value;
   if (esPalindromo(texto)) {
-    resultado.textContent = `${texto} es un palíndromo`;
+    resultado.textContent = `${texto} es palíndromo`;
   } else {
-    resultado.textContent = `${texto} no es un palíndromo`;
+    resultado.textContent = `${texto} no es palíndromo`;
   }
 });
 
