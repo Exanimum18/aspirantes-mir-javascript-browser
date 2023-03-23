@@ -1,0 +1,63 @@
+body {
+    background-color: #D3D3D3;
+}
+
+.main-container {
+    margin: auto;
+    width: 300px;
+}
+
+.section-input {
+    margin: 10px;
+    padding: 20px;
+    background-color: white;
+}
+
+.section-tasks {
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+.add-btn {
+    background-color: #E95678;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.delete-btn-container {
+    justify-content: center;
+}
+
+.delete-btn {
+    background-color: #42D6E3;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#task1 {
+    border-color: #42D6E3;
+}
+
+.label-task {
+    text-decoration: line-through;
+}
+
+label {
+    color: #42D6E3;
+}
+
+div {
+    display: flex;
+    padding: 5px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.delete-btn-container {
+    border-bottom: none;
+}
